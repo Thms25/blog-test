@@ -1,25 +1,23 @@
 import Navbar from './Navbar';
 import Home from './Home';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Create from './Create';
+import { Route, Routes } from 'react-router';
+import React from 'react';
+import BlogDetails from './BlogDetails';
 
 function App() {
-  const myTitle = "Welcome to my blog";
-
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <header className="App-header">
-          <h1>
-            {myTitle}
-          </h1>
-        </header>
-        <main>
-          <Home />
-        </main>
-      </div>
-    </Router>
-  );
-}
+    <div className="app">
+    <Navbar />
+    <div className="content">
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/create" element={<Create />}/>
+        <Route path="/blogs/:id" element={<BlogDetails />} />
+      </Routes>
+    </div>
+    </div>
+  )
+};
 
 export default App;
