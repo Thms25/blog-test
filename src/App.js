@@ -4,6 +4,7 @@ import Create from './Create';
 import { Route, Routes } from 'react-router';
 import React from 'react';
 import BlogDetails from './BlogDetails';
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/create" element={<Create />}/>
         <Route path="/blogs/:id" element={<BlogDetails />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
     </div>

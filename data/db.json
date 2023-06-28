@@ -23,6 +23,12 @@
       "body": "Vivamus id sem et urna interdum volutpat quis sed elit. Mauris ullamcorper, velit condimentum malesuada eleifend, diam neque efficitur turpis, vitae bibendum magna massa quis massa. Quisque ac rhoncus lacus. Nam massa urna, malesuada non dolor sed, tempor consequat felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris non sodales sem, vitae feugiat massa. Vestibulum vehicula porta iaculis. Nulla nec ante nec turpis dignissim lobortis.",
       "author": "Lalie",
       "id": 4
+    },
+    {
+      "title": "test navigate ",
+      "body": " method: 'POST',\n    headers: { \"Content-Type\": \"application/json\" },\n    body: JSON.stringify(blog)\n  }).then(() => {\n    console.log(\"new blog added\");\n    setIsPending(false)\n    navigate(\"/\");\n  }); method: 'POST',\n    headers: { \"Content-Type\": \"application/json\" },\n    body: JSON.stringify(blog)\n  }).then(() => {\n    console.log(\"new blog added\");\n    setIsPending(false)\n    navigate(\"/\");\n  }); method: 'POST',\n    headers: { \"Content-Type\": \"application/json\" },\n    body: JSON.stringify(blog)\n  }).then(() => {\n    console.log(\"new blog added\");\n    setIsPending(false)\n    navigate(\"/\");\n  }); method: 'POST',\n    headers: { \"Content-Type\": \"application/json\" },\n    body: JSON.stringify(blog)\n  }).then(() => {\n    console.log(\"new blog added\");\n    setIsPending(false)\n    navigate(\"/\");\n  }); method: 'POST',\n    headers: { \"Content-Type\": \"application/json\" },\n    body: JSON.stringify(blog)\n  }).then(() => {\n    console.log(\"new blog added\");\n    setIsPending(false)\n    navigate(\"/\");\n  }); method: 'POST',\n    headers: { \"Content-Type\": \"application/json\" },\n    body: JSON.stringify(blog)\n  }).then(() => {\n    console.log(\"new blog added\");\n    setIsPending(false)\n    navigate(\"/\");\n  }); method: 'POST',\n    headers: { \"Content-Type\": \"application/json\" },\n    body: JSON.stringify(blog)\n  }).then(() => {\n    console.log(\"new blog added\");\n    setIsPending(false)\n    navigate(\"/\");\n  }); method: 'POST',\n    headers: { \"Content-Type\": \"application/json\" },\n    body: JSON.stringify(blog)\n  }).then(() => {\n    console.log(\"new blog added\");\n    setIsPending(false)\n    navigate(\"/\");\n  });",
+      "author": "Thomas",
+      "id": 15
     }
   ]
 }
